@@ -74,6 +74,7 @@
       // set continuous to false if only one slide
       if (slides.length < 2) {
         options.continuous = false;
+        index = 0;
       }
 
       //special case if two slides
